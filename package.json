@@ -1,6 +1,6 @@
 {
   "name": "sketch-variables",
-  "description": "",
+  "description": "Create text variables inside sketch to use file as template",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
@@ -22,6 +22,9 @@
   },
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
+  },
+  "repository": {
+    "url": "https://github.com/murilo-campaner/sketch-variables-plugin"
   },
   "author": "murilo_campaner <murilo@inovad.com.br>"
 }
