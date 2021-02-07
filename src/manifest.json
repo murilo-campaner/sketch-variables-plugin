@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Set variables",
+      "identifier": "sketch-variables.set-variables-identifier",
+      "script": "set-variables.js"
+    }
+  ],
+  "menu": {
+    "title": "Sketch Variables",
+    "items": [
+      "sketch-variables.set-variables-identifier"
+    ]
+  }
+}
